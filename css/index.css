@@ -229,9 +229,17 @@ nav a img {
   transform: scale(1);
 }
 footer {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
   display: flex;
+  width: 20rem;
   height: 3.013333rem;
   border-top: 1px solid #ccc;
+  z-index: 9999;
+  background: #ccc;
+  opacity: 0.6;
 }
 footer a {
   height: 100%;

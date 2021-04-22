@@ -267,9 +267,18 @@ nav {
 }
 
 footer {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+
     display: flex;
+    width: 20rem;
     height: 3.013333rem;
     border-top: 1px solid #ccc;
+    z-index: 9999;
+    background: #ccc;
+    opacity: .6;
     a {
         height: 100%;
         display: flex;
